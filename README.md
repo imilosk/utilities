@@ -24,7 +24,7 @@ Then we need to change directory and install the requirements.txt:
 
 `$python copyme.py -h` will give you the following result:
 ```python
-usage: testing.py [-h] [-s SOURCE] [-p PATH] [-k KEYWORD]
+usage: copyme.py [-h] [-s SOURCE] [-p PATH] [-k KEYWORD]
 
 optional arguments:
   -h, --help            show this help message and exit
