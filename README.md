@@ -1,3 +1,12 @@
+```
+              ____          __  __       
+  ___   ___  |  _ \  _   _ |  \/  |  ___ 
+ / __| / _ \ | |_) || | | || |\/| | / _ \
+| (__ | (_) ||  __/ | |_| || |  | ||  __/
+ \___| \___/ |_|     \__, ||_|  |_| \___|
+                     |___/
+
+```
 # coPyMe
 Why bothering doing something when python can automate it? :) If you want to automatically copy file(s) from a directory on your network, or simply on your machine but you're too lazy, we got a script for you.
 # How does it work?
