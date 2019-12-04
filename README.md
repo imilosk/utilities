@@ -47,3 +47,15 @@ or
 `$ python copyme.py -k copyonlythisfile -p /copy/file/from/here`
 
 I know, it's that simple :)
+
+Example of running it on my machine:
+
+```
+PS C:\Users\Simeon\Desktop\New folder>python copyme.py -s "./copyme.txt" -p "C:\Users\Simeon\Desktop\copy_from_here" -m "C:\Users\Simeon\Desktop\New folder/paste_here"   
+                                                                                                                                                                                              ___  _____  ____  _  _  __  __  ____
+ / __)(  _  )(  _ \( \/ )(  \/  )( ___)
+( (__  )(_)(  )___/ \  /  )    (  )__)
+ \___)(_____)(__)   (__) (_/\/\_)(____)
+
+»-(¯`·.·´¯)->Copying done!<-(¯`·.·´¯)-«
+```
