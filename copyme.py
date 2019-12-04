@@ -45,7 +45,7 @@ class copyFiles(object):
         aprint("love_you", number=1, text="Copying done!")
 
     def milos_copy(self):
-        path = '\\\\192.168.8.26\\Graphics\\POWER STOP\\WIDEN Drive Backup\\'
+        path = '\\\\192.168.10.1\\Graphics\\Drive Backup\\'
         with open('./kits.txt', 'r') as file:
             for row in file:
                 image = row.split(',')[1]
