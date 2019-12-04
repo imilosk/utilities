@@ -7,7 +7,6 @@
                      |___/
 
 ```
-# coPyMe
 Why bothering doing something when python can automate it? :) If you want to automatically copy file(s) from a directory on your network, or simply on your machine but you're too lazy, we got a script for you.
 # How does it work?
 Python simply takes your file with data, searches through the directory you've given it and copies it on your machine, if the directory already exists, it will copy it there, if not it'll make another one. 
