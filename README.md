@@ -12,6 +12,16 @@ Why bothering doing something when python can automate it? :) If you want to aut
 Python simply takes your file with data, searches through the directory you've given it and copies it on your machine, if the directory already exists, it will copy it there, if not it'll make another one. 
 
 ## How to run coPyMe?
+
+First we need to clone this project, simply do:
+
+`$git clone https://github.com/imilosk/utilities`
+
+Then we need to change directory and install the requirements.txt:
+`$cd utilities 
+
+`$pip3 install -r requirements.txt`
+
 `$python copyme.py -h` will give you the following result:
 ```python
 usage: testing.py [-h] [-s SOURCE] [-p PATH] [-k KEYWORD]
@@ -23,10 +33,17 @@ optional arguments:
   -p PATH, --path PATH  Pass the path where you want the files from
   -k KEYWORD, --keyword KEYWORD
                         If you have only 1 keyword/file to search, pass it.
+   -m MYPATH, --my_path MYPATH
+                        Add this if you want to copy it to special place,
+                        if not specified will copy in the same dir as the script
 ```
+
 Example of running the script:
-`python copyme.py -s /path/to/filestocopy.txt -p /copy/files/from/here`
+
+`$ python copyme.py -s /path/to/filestocopy.txt -p /copy/files/from/here`
+
 or
-`python copyme.py -k copyonlythisfile -p /copy/file/from/here`
+
+`$ python copyme.py -k copyonlythisfile -p /copy/file/from/here`
 
 I know, it's that simple :)
