@@ -2,7 +2,7 @@ import os
 import glob
 from shutil import copy
 
-path = '\\\\192.168.8.26\\Graphics\\POWER STOP\\WIDEN Drive Backup\\'
+path = 'your_path'
 
 with open('./kits2.txt', 'r') as file:
     for row in file:
