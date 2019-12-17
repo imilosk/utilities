@@ -8,8 +8,8 @@ import os
 from os.path import join, isfile
 import difflib
 
-mypath = 'F:\\courses\\Laracasts\\_temp' 
-url = 'https://laracasts.com/series/how-do-i'
+mypath = '/your/path' 
+url = 'https://yoururl.domain/'
 header_class = "episode-list-title tw-mb-1 link lg:tw-leading-none tw-font-bold tw-text-xl md:tw-text-lg lg:tw-text-xl lg:tw-mb-0 tw-flex tw-items-center tw-mr-3"
 div_class = "episode-list-details"
 
@@ -26,8 +26,6 @@ def start_scrape(url, class_name):
 def start_renaming(pairs):
     if not isinstance(pairs, dict):
         raise TypeError
-    #for el in pairs:
-        #print(el, pairs[el])
     
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
     keepcharacters = (' ','.','_', '-')
